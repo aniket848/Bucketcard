@@ -1,0 +1,100 @@
+.card {
+  width: 20rem;
+  height: 12rem;
+  background-color: #8f43ee;
+  border-radius: 10%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  z-index:0;
+}
+.cardNam {
+  margin: 10px;
+}
+.cardName {
+  margin: 10px;
+  margin-top: 40px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.videolink {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 200;
+}
+
+.cardbutton {
+  width: 30%;
+  padding: 10px;
+  color: #8f43ee;
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  border: none;
+}
+
+.cardbutton:hover {
+  transition: 0.2s;
+  background-color: #8f43ee;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+
+/********************************************* POPUP *****************************************************/
+
+
+.popupCard,
+.popup {
+  width: 25rem;
+  height: 15rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(143, 67, 238);
+  border-radius: 50px;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  justify-content: space-evenly;
+  z-index: 100;
+}
+
+.popuplabel {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.popupinput {
+  height: 30px;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 2px 10px;
+  color: #000;
+}
+
+.popupbutton {
+  width: 30%;
+  padding: 10px;
+  color: #8f43ee;
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  border: none;
+}
+
+.popupbutton:hover {
+  transition: 0.2s;
+  background-color: #8f43ee;
+  color: #fff;
+  border: 2px solid #fff;
+}
